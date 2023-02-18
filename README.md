@@ -18,7 +18,7 @@ Our data analysis seeks to understand better the trends of the housing markets a
 ## Team Members
 
 - Stephen Lennox: I am a co-op student with over 300 hours of web development experience, looking for good housing if I need to relocate for co-op.
-- Person 2: one sentence about you!
+- Aditya Goswami: I am a 2nd year Computer Science and management student currently working to build a project that focuses on the topic of decentralized real estate.
 - Person 3: one sentence about you!
 
 ## Images
