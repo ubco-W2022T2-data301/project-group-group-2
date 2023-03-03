@@ -4,7 +4,7 @@
 
 ## Milestones
 
-Details for Milestone are available on Canvas (left sidebar, Course Project).
+Currently on Milestone 3.
 
 ## Describe your topic/interest in about 150-200 words
 
