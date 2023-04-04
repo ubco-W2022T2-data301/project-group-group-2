@@ -45,8 +45,46 @@ def load_Date_Value_Housing_2019_2022():
                )
     return df_index
 
-# In[ ]:
 
+def load_Date_Value_Housing_Alberta():
+    df_index= (pd.read_csv("../../data/raw/Montly Data/Montly-index.csv")
+               .drop(["UOM_ID","SCALAR_ID", "COORDINATE","SYMBOL","TERMINATED","DECIMALS","SCALAR_FACTOR","DGUID","UOM",], axis =1
+               .loc[lambda x: x['GEO'].str.contains('Alberta')]
+               .loc[lambda x: x['VALUE'].notna()])
+    return df_index
 
+def load_Date_Value_Housing_BC():
+    df_index= (pd.read_csv("../../data/raw/Montly Data/Montly-index.csv")
+               .drop(["UOM_ID","SCALAR_ID", "COORDINATE","SYMBOL","TERMINATED","DECIMALS","SCALAR_FACTOR","DGUID","UOM",], axis =1
+               .loc[lambda x: x['GEO'].str.contains('British Columbia')]
+               .loc[lambda x: x['VALUE'].notna()])
+    return df_index
 
+def load_Date_Value_Housing_ONT():
+    df_index= (pd.read_csv("../../data/raw/Montly Data/Montly-index.csv")
+               .drop(["UOM_ID","SCALAR_ID", "COORDINATE","SYMBOL","TERMINATED","DECIMALS","SCALAR_FACTOR","DGUID","UOM",], axis =1
+               .loc[lambda x: x['GEO'].str.contains('Ontario')]
+               .loc[lambda x: x['VALUE'].notna()])
+    return df_index
+
+def load_Date_Value_Housing_QB():
+    df_index= (pd.read_csv("../../data/raw/Montly Data/Montly-index.csv")
+               .drop(["UOM_ID","SCALAR_ID", "COORDINATE","SYMBOL","TERMINATED","DECIMALS","SCALAR_FACTOR","DGUID","UOM",], axis =1
+               .loc[lambda x: x['GEO'].str.contains('Quebec')]
+               .loc[lambda x: x['VALUE'].notna()])
+    return df_index               
+               
+def load_Date_Value_Housing_MiddleProvince():
+    df_index= (pd.read_csv("../../data/raw/Montly Data/Montly-index.csv")
+               .drop(["UOM_ID","SCALAR_ID", "COORDINATE","SYMBOL","TERMINATED","DECIMALS","SCALAR_FACTOR","DGUID","UOM",], axis =1
+               .loc[lambda x: x['GEO'].str.contains('Saskatchewan|Manitoba')]
+               .loc[lambda x: x['VALUE'].notna()])
+    return df_index 
+
+def load_Date_Value_Housing_Maritimes():
+    df_index= (pd.read_csv("../../data/raw/Montly Data/Montly-index.csv")
+               .drop(["UOM_ID","SCALAR_ID", "COORDINATE","SYMBOL","TERMINATED","DECIMALS","SCALAR_FACTOR","DGUID","UOM",], axis =1
+               .loc[lambda x: x['GEO'].str.contains('New Brunswick|Nova Scotia|Newfoundland and Labrador|Prince Edward Island')]
+               .loc[lambda x: x['VALUE'].notna()])
+    return df_index 
 
