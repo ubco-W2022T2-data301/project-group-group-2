@@ -45,6 +45,8 @@ def value_max_place():
     df = df[df['PLOT'] == "Total (house and land)"]
     df['DATE'] = pd.to_datetime(df['DATE'])
     df['MONTH'] = df['DATE'].dt.month
+    exclude = ['Alberta', 'British Columbia', 'Canada', 'Manitoba', 'Ontario', 'Quebec', 'Saskatchewan','Atlantic Region','New Brunswick','Nova Scotia','Prairie Region']
+    df['PLACE'] = df['PLACE'].apply(lambda x: x if x not in exclude else '')
     df.groupby('PLACE')['VALUE'].max().reset_index()
     return df
 
