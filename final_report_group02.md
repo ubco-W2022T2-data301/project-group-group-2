@@ -20,7 +20,7 @@ The primary objective of this research was to look into the trends and patterns 
 
 Our investigation produced a number of intriguing results. First, we noticed significant differences in the housing index values among the provinces. It's interesting to note that most of the provinces with rising housing index values and the highest values overall weren't those with steadily rising real estate prices. Secondly, we pinpointed specific months that had a tendency to be the most expensive to live, this analysis made perfect sense when we looked at Canadian weather patterns and the ability of individuals to work in them.
 
-![max_Prov](/images/max province.png) 
+![max_Prov](/images/max_province.png) 
 Here we see that the highest housing index value ever hit was from quebec and manitoba but these were the province which didn't see a steady increase in their housing index values. 
 
 In some provinces, we also discovered trends in the values of the housing index that could be explained by variations in the population density, the average income, and unemployment rates. According to our analysis, these variables may have an effect on the dynamics of supply and demand in the housing market, which in turn impacts the values of housing indexes. For example PEI having the most steady growth in housing index prices thourghout the dataset, it usually had 2x rate of growth than most of the provinces taken into consideration in out data. 
@@ -74,13 +74,13 @@ Our data showed that the housing index's value increased consistently throughout
 
 Although October and July had the greatest values, we also looked at the average rate of change in value and the highest value these months may attain. Considering this evaluation, we can conclude that the last quarter of the year, i.e., October to December, is the period with the highest cost of living across the various provinces and time periods in our dataset.
 
-![max_month](/images/max month.png) 
-![mean progression](/images/mean prog.png) 
+![max_month](/images/max_month.png) 
+![mean progression](/images/mean_prog.png) 
 
 After comparing the housing index values across the several provinces in our dataset, we found that Manitoba and Quebec had the highest housing index prices ever recorded. Prince Edward Island and British Columbia, on the other hand, had a noticeably faster growth in the housing index value than other provinces when we compared the mean progression in values. This data suggests that the cost of living in these two provinces has significantly increased, moving them up the rankings of most expensive places to live.
 
-![max_province](/images/max province.png) 
-![mean progression](/images/mean province.png)
+![max_province](/images/max_province.png) 
+![mean progression](/images/mean_province.png)
 
 Prince Edward Island and British Columbia's quick rise in housing index prices can be linked to a number of variables, including rising home demand, a lack of housing supply, an expanding population, and a growing economy. These results imply that investors and decision-makers should take these provinces into consideration when making real estate investments. Overall, my analysis shows the large regional differences in the housing index values, highlighting the necessity for region-specific policies and methods to effectively manage the real estate market. To learn more about the underlying causes of these changes and their long-term effects on the housing market and the economy, more research can be done.
 
@@ -120,3 +120,4 @@ Connecting the two categories together we get the following:
 By those marks and assuming that the lowest value is preffered for both metrics: If the value is placed more on the qualitative data then St John's Newfoundland ranking 2nd lowest in housing index cost and absolute lowest in qualitative non-response is the best place to live currently based off of data within the last year. If instead, the housing index is preferred then Regina Saskatchewan ranking lowest in housing index and 3rd in average non-response rate is preferred. Personally I am keeping my eye on Regina as I prefer having as much money above zero in my wallet as I can but St Johns does boast a considerable argument. 
 
 ## Conclusion:
+The housing market is complex. Had time permitted, there is so much more info to be gleaned from the Datasets we used. There is a whole line of work for people analysing  the housing market as a whole. Our group took a look at some of the questions that us as students may find the most useful, and we all came to a solid conclusion, based on each of our research. In doing so, each of the group members gained valuable knowledge of the market as a whole, as well as gained knowledge on the skills and what it takes to present data from research. There were definitely points during the project that did not go how we expected them to, and factors that went better than expected, but all of it culminated in the members of our group becoming better and more adept with the practice of Data Science. 
