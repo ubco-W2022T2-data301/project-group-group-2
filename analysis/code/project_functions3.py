@@ -14,9 +14,10 @@ def load_and_process(url):
               VICTORIA = lambda x: x.VALUE.where(x.LOCATION.str.contains("Victoria")),
               REGINA = lambda x: x.VALUE.where(x.LOCATION.str.contains("Regina")),
               EDMONTON = lambda x: x.VALUE.where(x.LOCATION.str.contains("Edmonton")),
-              HALIFAX = lambda x: x.VALUE.where(x.LOCATION.str.contains("Halifax"))
+              HALIFAX = lambda x: x.VALUE.where(x.LOCATION.str.contains("Halifax")),
+              WINNIPEG = lambda x: x.VALUE.where(x.LOCATION.str.contains("Winnipeg")),
              )
       .drop(columns='VALUE')
-      .groupby('DATE')[['St_JOHNS', 'QUEBEC', 'OTTAWA', 'VICTORIA', 'REGINA', 'EDMONTON', 'HALIFAX']].first().reset_index()
+      .groupby('DATE')[['St_JOHNS', 'QUEBEC', 'OTTAWA', 'VICTORIA', 'REGINA', 'EDMONTON', 'HALIFAX','WINNIPEG']].first().reset_index()
      )
     return df
