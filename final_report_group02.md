@@ -16,6 +16,18 @@ Another smaller thing I would like to also mention is that in terms of provinces
 
 
 ##### Aditya's EDA findings:
+The primary objective of this research was to look into the trends and patterns that emerged in the housing index data among all of the months and provinces in our dataset, which spanned the entire time period. By examining the patterns of rising or falling housing index value, I hoped to get insight into the variables that affect a state's economic demography and why some months are the most expensive to live in. 
+
+Our investigation produced a number of intriguing results. First, we noticed significant differences in the housing index values among the provinces. It's interesting to note that most of the provinces with rising housing index values and the highest values overall weren't those with steadily rising real estate prices. Secondly, we pinpointed specific months that had a tendency to be the most expensive to live, this analysis made perfect sense when we looked at Canadian weather patterns and the ability of individuals to work in them.
+
+![max_Prov](/images/max province.png) 
+Here we see that the highest housing index value ever hit was from quebec and manitoba but these were the province which didn't see a steady increase in their housing index values. 
+
+In some provinces, we also discovered trends in the values of the housing index that could be explained by variations in the population density, the average income, and unemployment rates. According to our analysis, these variables may have an effect on the dynamics of supply and demand in the housing market, which in turn impacts the values of housing indexes. For example PEI having the most steady growth in housing index prices thourghout the dataset, it usually had 2x rate of growth than most of the provinces taken into consideration in out data. 
+
+Another unexpected thing I noticed was that some places, including Kitchener-Waterloo, London in the province of Ontario, and Windsor, had max housing index values that were far higher than I had anticipated. Aside from that, every city in the data set with a greater value was a capital city. After doing some research, I was able to identify two factors that contributed to the high cost of living in these cities: the concentration of universities there (Waterloo area having 2 big universities at a walking distance) and the high rates of immigration from other countries. This fact also explained why Ontario's housing index value continues to rise and why it is regarded as one of the most expensive jurisdictions to live in. 
+
+![max_city](/images/maxcity.png) 
 
 
 
@@ -53,6 +65,24 @@ This leads me to what my data-based conclusion to my reaserch question: I believ
 
 
 #### Reasearch Question 1 (Aditya) and results:
+My research question was:
+>**Through a comparative analysis of the housing index across various provinces and the complete time periods in a given dataset, which provinces and months exhibited the highest cost of living?**
+
+The main goal of this study was to compare the housing index values between different provinces and time periods in a specific dataset in order to pinpoint the regions and months with the highest cost of living. We discovered important trends and patterns in the values of the housing index through comparative analysis.
+
+Our data showed that the housing index's value increased consistently throughout the year, peaking in January at its lowest value and gradually rising thereafter. Notably, the greatest housing index values ever reached in our dataset were reported in October and July.
+
+Although October and July had the greatest values, we also looked at the average rate of change in value and the highest value these months may attain. Considering this evaluation, we can conclude that the last quarter of the year, i.e., October to December, is the period with the highest cost of living across the various provinces and time periods in our dataset.
+
+![max_month](/images/max month.png) 
+![mean progression](/images/mean prog.png) 
+
+After comparing the housing index values across the several provinces in our dataset, we found that Manitoba and Quebec had the highest housing index prices ever recorded. Prince Edward Island and British Columbia, on the other hand, had a noticeably faster growth in the housing index value than other provinces when we compared the mean progression in values. This data suggests that the cost of living in these two provinces has significantly increased, moving them up the rankings of most expensive places to live.
+
+![max_province](/images/max province.png) 
+![mean progression](/images/mean province.png)
+
+Prince Edward Island and British Columbia's quick rise in housing index prices can be linked to a number of variables, including rising home demand, a lack of housing supply, an expanding population, and a growing economy. These results imply that investors and decision-makers should take these provinces into consideration when making real estate investments. Overall, my analysis shows the large regional differences in the housing index values, highlighting the necessity for region-specific policies and methods to effectively manage the real estate market. To learn more about the underlying causes of these changes and their long-term effects on the housing market and the economy, more research can be done.
 
 
 
