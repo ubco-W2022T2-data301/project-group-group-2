@@ -18,9 +18,24 @@ Another smaller thing I would like to also mention is that in terms of provinces
 
 
 ##### Stephens's EDA findings:
+My research question delved deeply into capital city data of the last year and my Exploratory data analysis focused primarily on that. When looking into the housing index data of capital cities over the entire time period *1980-2022*, there are 2 significant points in time:
+    1. The first is that Victoria is the only capital city to have actually dropped in housing index cost since
+    2. The second is that all of the capital cities index values converge around the time of 2017.
 
+Looking specifically at the index results of the last year, the rankings from highest to lowest index value are:
+    1. Winnipeg
+    2. Quebec
+    3. Victoria
+    4. Halifax
+    5. Ottawa
+    6. Edmonton
+    7. St. John's
+    8. Regina
 
+An interesting calculated data point for the last year was the maximum change in index (taking the highest and lowest possible values). Of that, the suprising lowest change in index was that of Ottawa. It changed less than a single point in value. Which means that for the last year the value of houses in Ottawa have had a near completely proportional change to the income and the cost of other essential goods in the city. The other significant city for the maximum change in index was Winnipeg, ranking the highest for change with a significant 12 point change for the maximum and minimum of the year which is reflected in the graph of index values in the last year. 
 
+The second data set explored was the qualitative non-response rates of capital cities. 
+This one, while not as extensive revealed a few interesting things. While ranking 3rd lowest for housing index within the last year, Edmonton specifically had the highest non-response rates for dwelling conditions non-response, tenure non-response, monthly rent non-response, and mortgage payment non-response by a significant margin. The Winnipeg and Quebec both rank within the the top 2-4 for all of those categories as well. St John's consistently ranks low, correlating to it's position in the index chart, while Regina ranks around 4th lowest in those categories consistently. There seems to be a slight correlation betweent the qualitative non-response data and the Index ranking with a strong exception being Edmonton
 
 #### Reasearch Question 1 (Jack) and results:
 So for my reaserch question, I looked at the trends in value across canada to see if there is any sort of a pattern that could lead to any conclusions about the potential next few years.
@@ -37,9 +52,37 @@ This leads me to what my data-based conclusion to my reaserch question: I believ
 
 
 
-#### Reasearch Question 1 (Stephen) and results:
+#### Reasearch Question 3 (Stephen) and results:
+My research question was:
+>**What is the best place to live in provincial capital cities based off of the housing index and quality of the housing market in the last year?**
 
+Based off of the housing index alone, the results for the last year in capitals cities is very straightforward. The cheapest place relative to the housing index right now, is Regina Saskatchewan and the most expensive with a significant margin is Winnipeg Manitoba.
+Based off of the quality non-responsee rates of the second data set, there were 4 significant data points chosen that related to quality and pricing of the houses:
+    - Tenure non-response rate
+    - Monthly rent non-response rate
+    - Mortgage payments non-response rate
+    - Dwelling conditions non-response rate
+    
+For these 4 data points considered, St Johns had the lowest non-response for Dwelling conditions and Tenure while Quebec City has the lowest monthly rent non-response rate and Ottawa had the lowest non-response for mortgage payments. Edmonton, in contrast, ranked the highest non-response rate in all 4 categories.
 
+Connecting the two categories together we get the following:
 
+    - Ottawa: #5 highest in index, 3.0 average non-response rate across the 4 categories
+
+    - Winnipeg: #1 Highest index, 3.38 average non-response rate across the 4 categories
+
+    - Regina: #8 Highest index, 3.35 average non-response rate across the 4 categories
+
+    - Victoria: #3 Highest index, 3.03 average non-response rate across the 4 categories
+
+    - St John's #7 Highest index, 2.78 average non-response rate across the 4 categories
+
+    - Edmonton #6 Highest index, 4.45 average non-response rate across the 4 categories
+
+    - Halifax: #4 Highest index, 3.00 average non-response rate across the 4 categories
+    
+    - Quebec: #2 Highest index, 3.50 average non-response rate across the 4 categories
+
+By those marks and assuming that the lowest value is preffered for both metrics: If the value is placed more on the qualitative data then St John's Newfoundland ranking 2nd lowest in housing index cost and absolute lowest in qualitative non-response is the best place to live currently based off of data within the last year. If instead, the housing index is preferred then Regina Saskatchewan ranking lowest in housing index and 3rd in average non-response rate is preferred. Personally I am keeping my eye on Regina as I prefer having as much money above zero in my wallet as I can but St Johns does boast a considerable argument. 
 
 ## Conclusion:
